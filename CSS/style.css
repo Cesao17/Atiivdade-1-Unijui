@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html,
+body {
+  font-size: 100%;
+  height: 100%;
+  list-style: none;
+  font-family: "Open Sans";
+}
+
+/*Começa aqui*/
+
+/*Header*/
+
+.container {
+  margin: 0 330px 0 360px;
+}
+
+.header-d {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 60px;
+}
+
+.header-d ul li {
+  display: inline-block;
+  padding: 15px;
+  margin-left: 10px;
+}
+.header-d ul li a {
+  margin-right: 15px;
+  text-decoration: underline;
+  color: black;
+}
+/*Banner*/
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+/*texto do site*/
+
+.section-dois {
+  margin-top: -200px;
+}
+
+.texto-do-site {
+  margin: 2% 0 0 25.5%;
+}
+
+.texto-do-site h1 {
+  text-decoration: underline;
+}
+
+.texto-do-site p {
+  margin-top: 20px;
+}
+
+.texto-do-site p a {
+  text-decoration: underline;
+}
+
+.imgs {
+  margin-top: 25px;
+  display: flex;
+}
+
+.imgs .center {
+  margin: 0 15px 0 15px;
+}
+
+.texto-artigo {
+  display: flex;
+}
+.texto-artigo p {
+  margin: 0 15px 0 15px;
+}
+
+/*Menu Lateral*/
+
+aside {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2% 370px 0 0;
+}
+
+.menu h3 {
+  padding: 5px;
+  width: 150px;
+  background-color: rgb(168, 164, 164);
+}
+
+.menu .lista {
+  list-style-type: none;
+  text-decoration: none;
+  width: 150px;
+}
+
+.menu .lista li {
+  border-bottom: 0.1px solid black;
+  padding: 5px;
+}
+
+.menu .lista li:last-child {
+  border-bottom: none;
+  padding: 5px;
+}
+
+.menu .lista li a {
+  color: black;
+  width: 150px;
+}
+
+/*Rodapé*/
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0 10% 0;
+}
+
+.text-rodape {
+  width: 700px;
+  border-top: 1px solid black;
+}
+
+.text-rodape h4 {
+  display: flex;
+  margin: 10px 0 10px 0;
+  justify-content: center;
+}
+
+.text-rodape p {
+  display: flex;
+  justify-content: center;
+}
